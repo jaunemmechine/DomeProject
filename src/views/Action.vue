@@ -1,11 +1,18 @@
 <template>
-    <div>it's Action page😀</div>
+    <div>
+        <div>{{name}}</div>
+        <p>{{msg}}</p>
+    </div>
+    
 </template>
 
 <script>
     export default {
         data() {
-            return {};
+            return {
+                name: "it's Action page😀",
+                msg: "action页面内容"
+            };
         }
     };
 </script>
