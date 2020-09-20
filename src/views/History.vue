@@ -1,11 +1,17 @@
 <template>
-    <div>it's History page😀</div>
+    <div>
+        <div>{{data}}</div>
+        <p>msg</p>
+    </div>
 </template>
 
 <script>
     export default {
         data() {
-            return {};
+            return {
+                data:"it's History page😀",
+                msg:"history 页面内容"
+            };
         }
     };
 </script>
